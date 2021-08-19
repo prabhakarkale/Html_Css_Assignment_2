@@ -1,0 +1,338 @@
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins'); */
+        /* Common Css */
+        
+        body {
+            margin: 0;
+            padding: 0;
+            border: none;
+            text-decoration: none;
+        }
+        
+        .container {
+            width: 1280px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        button:hover {
+            background-color: #E91B1A;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+        /* header section */
+        
+        header {
+            position: absolute;
+            right: 60px;
+            left: 60px;
+            top: 23px;
+            background-color: white;
+            height: 74px;
+            width: auto;
+        }
+        
+        header img {
+            position: relative;
+            float: left;
+            width: 202px;
+            height: 74px;
+        }
+        
+        header .menus {
+            position: relative;
+            float: right;
+        }
+        
+        .menus a {
+            position: relative;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 27px;
+            font-family: Poppins;
+            letter-spacing: 0.54px;
+            color: #000000;
+        }
+        
+        .menus a:after {
+            position: absolute;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 2.5px;
+            left: 50%;
+            background: #E91B1A;
+            transition: width 0.3s ease 0s, left 0.3s ease 0s;
+            width: 0;
+        }
+        
+        .menus a:hover:after {
+            width: 100%;
+            left: 0;
+        }
+        
+        .menus button {
+            height: 58px;
+            width: 187px;
+            font-size: 20px;
+            line-height: 30px;
+            background-color: #F92524;
+            color: white;
+            border-radius: 5px;
+            border-style: none;
+            padding: 0px 15px;
+            cursor: pointer;
+        }
+        /* banner section */
+        
+        .banner {
+            position: relative;
+            background: url(../images/banner_bg.png) no-repeat;
+            width: 100%;
+            height: auto;
+            background-size: cover;
+            top: 120px;
+            height: 660px;
+            bottom: 0px;
+        }
+        
+        .banner_body {
+            position: relative;
+            height: inherit;
+            display: block;
+        }
+        
+        .banner_body ._left {
+            position: relative;
+            height: 331px;
+            width: 600px;
+            top: 165px;
+            float: left;
+            color: #FFFFFF;
+            font-family: Poppins;
+        }
+        
+        .banner_caption {
+            width: 405px;
+            font-size: 40px;
+            line-height: 62px;
+            font-weight: 300;
+        }
+        
+        .banner_caption span {
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 62px;
+        }
+        
+        ._left p {
+            position: relative;
+            top: 36px;
+            font-family: Poppins;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 28px;
+            width: 600px;
+            text-align: left;
+        }
+        
+        ._left .join_today_buttons {
+            position: relative;
+            top: 36px;
+        }
+        
+        .btn-join-today {
+            width: 198px;
+            height: 58px;
+            float: left;
+            border: none;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            background-color: #f92524;
+            font-family: Poppins;
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: 300;
+            color: #FFFFFF;
+        }
+        
+        .btn-more {
+            width: 58px;
+            height: 58px;
+            background-image: url("../images/arrow_right.png");
+            background-repeat: no-repeat;
+            background-position: 20px 20px;
+            border: none;
+            background-color: #e91b1a;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        
+        .banner_body ._right {
+            position: relative;
+            height: 588px;
+            width: 606px;
+            top: 36px;
+            left: 75px;
+            float: left;
+        }
+        
+        ._right .img1 {
+            position: absolute;
+        }
+        
+        ._right .img2 {
+            position: relative;
+            top: 173px;
+            left: 191px;
+        }
+        /* Our Story section */
+        
+        .our_story {
+            position: relative;
+            top: 240px;
+            height: 587px;
+        }
+        
+        .our_story .our_story_left {
+            position: absolute;
+            width: 424px;
+            height: 587px;
+            background-image: url("../images/advanced_bg.png");
+            background-repeat: no-repeat;
+        }
+        
+        .our_story_left .inner-div {
+            color: #FFFFFF;
+            background: #f92524;
+            /* width: 334px; */
+            height: 497px;
+            margin: 45px;
+            opacity: .65;
+            padding: 10px;
+            border: 1px solid#707070;
+            text-align: center;
+        }
+        
+        .inner-div h3 {
+            font-family: Poppins;
+            font-weight: medium;
+            font-size: 24px;
+            line-height: 14px;
+            opacity: 1;
+        }
+        
+        .inner-div .under-line {
+            width: 160px;
+            color: #f6f7fb;
+            opacity: 1;
+        }
+        
+        .inner-div .desc {
+            position: relative;
+            top: 20px;
+            margin: auto;
+            height: 161px;
+            width: 275px;
+            font-weight: medium;
+            font-size: 20px;
+            line-height: 30px;
+            color: #f6f7fb;
+            opacity: 1;
+        }
+        
+        .inner-div button {
+            position: relative;
+            top: 180px;
+            width: 203px;
+            height: 49px;
+            border-radius: 5px;
+            border: none;
+            background: #FFFFFF;
+            opacity: 1;
+            font-family: Poppins;
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 300;
+            color: #f92524;
+        }
+        
+        .our_story .our_story_right {
+            position: relative;
+            top: 0px;
+            float: right;
+            width: 709px;
+            height: 587px;
+        }
+        
+        .our_story_right .our_story_heading {
+            margin: 0px;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 60px;
+            color: #181818;
+            font-family: Poppins;
+        }
+        
+        .our_story_right hr {
+            width: 100px;
+            border: 2px solid red;
+        }
+        
+        .our_story_right .our_story_desc {
+            position: relative;
+            top: 37px;
+            width: 702px;
+            font-family: Poppins;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+            color: #7A839E;
+        }
+        
+        .our_story_right .features {
+            position: relative;
+            top: 51px;
+        }
+        
+        .features .feature_img {
+            width: 106px;
+            height: 106px;
+            border: 1px solid red;
+            float: left;
+            border-radius: 50%;
+        }
+        
+        .feature_img img {
+            position: relative;
+            top: 30px;
+            left: 35px;
+            float: left;
+        }
+        
+        .features .feature_info {
+            position: relative;
+            left: 30px;
+        }
+        
+        .feature_info h2 {
+            font-weight: medium;
+            font-size: 25px;
+            line-height: 50px;
+            font-family: Poppins;
+            color: #181818;
+        }
+        
+        .feature_info p {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+            font-family: Poppins;
+            color: #7a8391;
+        }
+        /* our classes section */
+        
+        .our_classes_outer {
+            height: 944px;
+        }
